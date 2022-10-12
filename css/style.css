@@ -1,0 +1,60 @@
+/* === common start === */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #000000;
+}
+/* === common end === */
+/* header start */
+header {
+  padding: 1rem 0;
+  background-color: #f0fff0;
+}
+.c_nav {
+}
+.logo {
+  width: 195px;
+  padding: 2rem 0 ;
+}
+.menu ul li a {
+  padding: 0 2.5rem !important;
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #000000 !important;
+  line-height: 2.4rem;
+  text-transform: capitalize;
+  transition: 0.3s;
+}
+.menu ul li a:hover {
+  color: #fd511a !important ;
+  transition: 0.3s;
+}
+.common-btn {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+  color: white;
+  background: #21b573;
+  border-radius: 33px;
+  text-transform: capitalize;
+  transition: 0.3s;
+}
+.common-btn:hover {
+  color: white !important;
+  background-color: #fd511a !important;
+  transition: 0.3s;
+}
+.header-btn {
+  padding: 1rem 2.5rem;
+  margin-left: 1rem;
+}
+/* header end */
